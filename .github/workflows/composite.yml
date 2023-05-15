@@ -15,6 +15,5 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: harshmittal-cyber/composite-workflow/.github/workflows/blank.yml@main
-      - uses: harshmittal-cyber/composite-workflow/.github/workflows/blank2.yml@main
+      - uses: ./.github/workflows/blank.yml
       
