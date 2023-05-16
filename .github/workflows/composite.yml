@@ -9,10 +9,12 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   composite:
-      runs-on: ubuntu-latest
-
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      steps:
-          - uses: harshmittal-cyber/composite-workflow/.github/workflows/blank.yml@main
+    runs-on: ubuntu-latest
+    steps:
+       - name: Call 1st reusable workflow 
+         uses: harshmittal-cyber/composite-workflow/.github/workflows/blank.yml@main
+         
+       - name: Call 2nd reusable workflow 
+         uses: ./.github/workflows/blank.yml
           
       
