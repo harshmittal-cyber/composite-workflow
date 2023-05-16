@@ -11,6 +11,8 @@ jobs:
   # This workflow contains a single job called "build"
   composite:
     uses: harshmittal-cyber/composite-workflow/.github/workflows/blank.yml@main
+  composite2:
+    uses: harshmittal-cyber/composite-workflow/.github/workflows/blank2.yml@main 
          
 
           
