@@ -11,5 +11,5 @@ jobs:
   composite:
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      uses: harshmittal-cyber/composite-workflow/.github/workflows/blank.yml@main
+      uses: ./.github/workflows/blank.yml
       
