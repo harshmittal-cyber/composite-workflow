@@ -15,7 +15,6 @@ jobs:
        - name: Call 1st reusable workflow 
          uses: harshmittal-cyber/composite-workflow/.github/workflows/blank.yml@main
          
-       - name: Call 2nd reusable workflow 
-         uses: ./.github/workflows/blank2.yml
+
           
       
