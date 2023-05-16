@@ -13,6 +13,6 @@ jobs:
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       steps:
-          - uses: ./.github/workflows/blank.yml
+          - uses: harshmittal-cyber/composite-workflow/.github/workflows/blank.yml@main
           
       
