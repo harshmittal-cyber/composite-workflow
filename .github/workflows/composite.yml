@@ -5,6 +5,7 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -15,6 +16,6 @@ jobs:
          uses: harshmittal-cyber/composite-workflow/.github/workflows/blank.yml@main
          
        - name: Call 2nd reusable workflow 
-         uses: ./.github/workflows/blank.yml
+         uses: ./.github/workflows/blank2.yml
           
       
