@@ -9,7 +9,10 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   composite:
+      runs-on: ubuntu-latest
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      uses: ./.github/workflows/blank.yml
+      steps:
+          - uses: ./.github/workflows/blank.yml
+          - uses: paras-31/test-reusable-g-action/.github/workflows/blank.yml@main
       
